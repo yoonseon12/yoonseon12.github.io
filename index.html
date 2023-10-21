@@ -43,7 +43,7 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo"></a>
+        <a href="/" id="logo">YoonSeon</a>
       </h1>
       
     </div>
@@ -187,17 +187,17 @@
 <p>****참고 : POST와 PUT의 차이<br>****POST는 클라이언트가 리소스를 알지 못한 상태로 서버에 요청하고 서버는 데이터를 등록할  때 리소스를 생성한다.<br>PUT은 클라이언트가 리소스를 URL에 명시하여 서버에 데이터 처리를 요청한다.</p>
 </blockquote>
 <p><strong>PUT - 클라이언트에서 보낸 리소스가 서버에 없을 경우</strong></p>
-<p>[##<em>Image|kage@2Yo98&#x2F;btsikBvo8nM&#x2F;9YJC3P7zc4RnJ511fEvmAk&#x2F;img.png|CDM|1.3|{“originWidth”:846,”originHeight”:382,”style”:”alignCenter”,”width”:580,”height”:262}</em>##][##<em>Image|kage@cI4FKm&#x2F;btsij9eAklG&#x2F;VDJATK2NitoqkLOnlnvJCk&#x2F;img.png|CDM|1.3|{“originWidth”:792,”originHeight”:366,”style”:”alignCenter”,”width”:576,”height”:266}</em>##]</p>
+<p><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/cI4FKm/btsij9eAklG/VDJATK2NitoqkLOnlnvJCk/img.png" alt="PUT - 클라이언트에서 보낸 리소스가 서버에 없을 경우" title="PUT - 클라이언트에서 보낸 리소스가 서버에 없을 경우"></p>
 <ul>
 <li>클라이언트에서 보낸 리소스가 서버에 존재하지 않기 때문에 서버에서 클라이언트에서 보낸 리소스를 생성한다.</li>
 </ul>
 <p><strong>PUT - <strong>클라이언트에서 보낸 리소스가 서버에 있을 경우</strong></strong></p>
-<p>[##<em>Image|kage@us8KG&#x2F;btsiheHZS84&#x2F;Ww7RS6E6vVQs6F29LKBnF1&#x2F;img.png|CDM|1.3|{“originWidth”:787,”originHeight”:365,”style”:”alignCenter”,”width”:505,”height”:234}</em>##][##<em>Image|kage@bDeEuy&#x2F;btsilj2k9Ky&#x2F;itpkhQ9FCC93aREn1PE0y0&#x2F;img.png|CDM|1.3|{“originWidth”:829,”originHeight”:376,”style”:”alignCenter”,”width”:534,”height”:242}</em>##]</p>
+<p><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/us8KG/btsiheHZS84/Ww7RS6E6vVQs6F29LKBnF1/img.png" alt="PUT - 클라이언트에서 보낸 리소스가 서버에 있을 경우" title="PUT - 클라이언트에서 보낸 리소스가 서버에 있을 경우"></p>
 <ul>
 <li>클라이언트에서 보낸 리소스가 서버에 존재하기 때문에 서버의 리소스가 클라이언트에서 보낸 리소스로 <strong>완전히 대체된다.</strong></li>
 </ul>
 <p><strong>PUT - 리소스를 완전히 대체한다는 것은</strong> </p>
-<p>[##<em>Image|kage@ScHAX&#x2F;btsikUnQZZ1&#x2F;yaEQfYaW0PtQjFivUvmkSK&#x2F;img.png|CDM|1.3|{“originWidth”:874,”originHeight”:370,”style”:”alignCenter”,”width”:558,”height”:236}</em>##][##<em>Image|kage@bwdlnJ&#x2F;btsinYQFUxc&#x2F;TT3rJ0sckMYOChHd9L0Az1&#x2F;img.png|CDM|1.3|{“originWidth”:857,”originHeight”:393,”style”:”alignCenter”,”width”:598,”height”:274}</em>##]</p>
+<p><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/ScHAX/btsikUnQZZ1/yaEQfYaW0PtQjFivUvmkSK/img.png" alt="PUT - 리소스를 완전히 대체한다는 것은" title="PUT - 리소스를 완전히 대체한다는 것은"></p>
 <ul>
 <li>PUT 메서드에서 가장 중요한 것은 리소스를 수정하는 것이 아니라 <strong>완전히 대체</strong>된다는 것이다. </li>
 <li>클라이언트가 username 필드를 제외한 데이터를 서버로 보내면 서버에서는 username 필드가 있었다고 해도 username 필드가 삭제된다. 리소스를 <strong>완전히 대체하기 때문</strong>이다.</li>
@@ -220,7 +220,7 @@
 <li>멱등성(Idempotent Methods)</li>
 <li>캐시가능(Cacheable Methods)</li>
 </ul>
-<p>[##<em>Image|kage@ci0gd5&#x2F;btsihdh4YcN&#x2F;8mJWKXKr03RQEqIdUNIPKk&#x2F;img.png|CDM|1.3|{“originWidth”:1500,”originHeight”:610,”style”:”alignCenter”}</em>##]</p>
+<p><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/ci0gd5/btsihdh4YcN/8mJWKXKr03RQEqIdUNIPKk/img.png" alt="HTTP 메서드의 속성" title="HTTP 메서드의 속성"></p>
 <h4 id="안전성-Safe"><a href="#안전성-Safe" class="headerlink" title="**안전성(**Safe)"></a>**안전성(**<strong>Safe)</strong></h4><ul>
 <li>클라이언트에서 서버를 호출해도 리소스를 변경하지 않는다.</li>
 <li>안전은 해당 리소스만을 고려한다. 만약 계속 호출해서 로그가 수없이 쌓여 장애가 발생되는 경우는 고려하지 않는다.</li>
